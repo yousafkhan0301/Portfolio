@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Professional Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+<header>
+    <h2 class="logo">MyPortfolio</h2>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a> <!-- Added About Me -->
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="controls">
+            <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Frontend Developer</span></h1>
+            <p>HTML • CSS • JavaScript • React</p>
+        </div>
+        <div class="hero-image">
+            <img src="images/myphoto.jpg" alt="My Photo">
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hi! I'm <strong>Yousaf</strong>, a passionate Frontend Developer with experience in building responsive and interactive web applications using HTML, CSS, JavaScript, and React. I enjoy creating modern, user-friendly designs and bringing ideas to life on the web. Constantly learning and experimenting, I aim to deliver projects that are both visually appealing and highly functional.
+    </p>
+</section>
+
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects">
+
+    <!-- Student Attendance System -->
+    <a href="https://github.com/yousafkhan0301/student-attendance-system"
+       target="_blank"
+       class="card">
+        <img src="images/attendance.png">
+        <h3>Student Attendance System</h3>
+        <p>Manage student attendance using JavaScript.</p>
+    </a>
+
+    <!-- Calculator -->
+    <a href="https://github.com/yousafkhan0301/calculator"
+       target="_blank"
+       class="card">
+        <img src="images/calculator.png">
+        <h3>Calculator</h3>
+        <p>Simple calculator built with HTML, CSS, and JavaScript.</p>
+    </a>
+
+    <!-- Weather App -->
+    <a href="https://github.com/yousafkhan0301"
+       target="_blank"
+       class="card">
+        <img src="images/weather.png">
+        <h3>Weather App</h3>
+        <p>Weather forecast app using live API data.</p>
+    </a>
+
+</div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:yousiitutor@gmail.com" class="email-link">yousiitutor@gmail.com</a></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
